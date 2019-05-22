@@ -250,3 +250,201 @@ Achtung: Es ist nur **eine** Möglichkeit richtig! Lesen Sie bitte genau und wä
 - "Nein. Sie liegen schon richtig, nur haben Sie eine Kombination übersehen. Es liegen zusätzlich fehlende Werte vor."
 - "Ja, sehr gut! Sie haben sehr aufmerksam die Daten erkundet."
 - "Naja, dann aber beim nächsten mal bitte genauer!""
+
+---
+
+## Daten bereinigen
+
+```yaml
+type: NormalExercise
+key: 5320ec596c
+xp: 100
+```
+
+Das Aufräumen bzw. **Bereinigen** Ihrer Daten bedeutet, sie in einer konsistenten Form zu speichern, die der Semantik des Datensatzes mit der Art der Speicherung entspricht. Kurz gesagt, wenn Ihre Daten bereinigt sind, ist jede Spalte eine Variable und jede Zeile ist eine Beobachtung. Das Bereinigen (tidying) ist wichtig, weil die einheitliche Struktur es Ihnen ermöglicht Ihren Fokus auf die Fragen zu den Daten zu konzentrieren 
+(Wickham/Grolemund 2018, S.X).
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Transformieren
+
+```yaml
+type: NormalExercise
+key: 92e156a006
+xp: 100
+```
+
+Der nächste übliche Schritt nach der Bereinigung der Daten (Tidying) ist es, die Daten zu **transformieren**. Dazu gehört die Einschränkung des Datensates auf das Analyseinteresse, die Erstellung neuer Variablen, die Funktionen bestehender Variablen sind und die Berechnung eines Satzes von zusammenfassenden Statistiken (counts, means, ...)
+(Wickham/Grolemund 2018, S.X)
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Visualisieren
+
+```yaml
+type: NormalExercise
+key: b7d775e42f
+xp: 100
+```
+
+Die **Visualisierung** ist eine grundlegende menschliche Aktivität und zeigt Ihnen Erkenntnisse, die Sie nicht erwartet hatten oder lässt Sie neue Fragen an die Daten stellen.Eine gute Visualisierung könnte auch darauf hinweisen, dass Sie die falschen Fragen stellen oder dass Sie andere Daten sammeln müssen. Die Visualisierung lässt Sie Daten besser interpretieren, jedoch skaliert sie nicht immer gut, da sie von Menschen in den häuftisgten Fällen für kontextbasierte und individuelle Sachverhalte angefragt wird.
+(Wickham/Grolemund 2018, S.X)
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## (Modellieren)
+
+```yaml
+type: NormalExercise
+key: ed35be43fd
+xp: 100
+```
+
+Modelle sind ergänzende Werkzeuge zur Visualisierung. Wenn Sie Ihre Fragen ausreichend präzise (mathematisch) formuliert haben, können Sie sie mit einem Modell beantworten. Modelle skalieren den Wert, weil sie Rechenwerkzeuge sind. Aber jedes Modell beinhaltet Annahmen und von Natur aus kann ein Modell seine eigenen Annahmen nicht in Frage stellen. Das bedeutet, dass ein Model Sie nicht fudamental überraschen kann.
+(Wickham/Grolemund 2018, S.X)
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
+```
+
+---
+
+## Welche Erkenntnisse durch die Datenanalyse haben Sie gewonnen?
+
+```yaml
+type: PureMultipleChoiceExercise
+key: 8d0168008a
+xp: 50
+```
+
+
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
+
+
+---
+
+## Kommunizieren: Führungskräftemeeting
+
+```yaml
+type: PureMultipleChoiceExercise
+key: c8e7e2efe2
+xp: 50
+```
+
+Der letzte Schritt eins Data Science Projektes ist die **Kommunikation**. Ein absolut erfolgskritischer Teil eines jeden Datenanalyseprojektes. Es spielt keine Rolle, wie gut Ihre Modelle und Visualisierungen Sie dazu gebracht haben, die Daten zu verstehen, es sei denn, Sie können die Ergebnisse auch an andere verständlich weitergeben und (ökonomischen) Wert damit generieren.
+(Quelle: Wickham/Grolemund 2018, S.X)
+
+`@hint`
+
+
+`@possible_answers`
+
+
+`@feedback`
