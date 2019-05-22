@@ -106,7 +106,7 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 ```yaml
 type: NormalExercise
 key: 1f782c2882
-xp: 100
+xp: 35
 ```
 
 `@instructions`
@@ -137,4 +137,75 @@ ex() %>% check_code("nrow(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etw
 success_msg("Super, es liegen 100 Zeilen vor!")
 ex() %>% check_code("ncol(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die Spalten nicht!")
 success_msg("Super, es liegen 4 Zeilen vor!")
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 575b66e79b
+xp: 35
+```
+
+`@instructions`
+Jetzt wissen Sie, wie groß der Datensatz ist. Verschaffen Sie sich bitte einen Überblick über die obersten und untersten Werte, die in den Kundendaten enthalten sind, um sich einen Überblick zu verschaffen und mögliche Ausreißer, besonders profitable bzw. unprofitable Kunden zu identifizieren.
+
+`@hint`
+Nutzen Sie die Funktionen **head()** und **tail()**
+
+`@sample_code`
+```{r}
+# Obersten Werte
+
+
+
+# Untersten Werte
+
+
+
+```
+
+`@solution`
+```{r}
+# Obersten Werte
+head(Kundendaten)
+# Untersten Werte
+tail(Kundendaten)
+```
+
+`@sct`
+```{r}
+ex() %>% check_code("head(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die obersten Werte nicht!")
+success_msg("Richtig gecodet!")
+ex() %>% check_code("tail(Kundendaten)", fixed=TRUE, missing_msg= "Da stimmt etwas bei dem Code für die untersten Werte nicht!")
+success_msg("Richtig gecodet!") 
+```
+
+***
+
+```yaml
+type: NormalExercise
+key: 9a4a85ca58
+xp: 30
+```
+
+`@instructions`
+
+
+`@hint`
+
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
