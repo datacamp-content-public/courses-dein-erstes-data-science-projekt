@@ -198,8 +198,8 @@ summary(Kundendaten)
 `@sct`
 ```{r}
 #ex() %>% check_object(summmary()) %>% check_equal(summary(Kundendaten))
-ex() %>% check_code(c("summary(Kundendaten)", "str(Kundendaten)"), fixed = TRUE, missing_msg= "Da stimmt etwas nicht!")
-success_msg("Glückwunsch, jetzt müssten Sie einen Überblick über die  Daten bekommen haben!")
+ex() %>% check_code(c("summary(Kundendaten)", "str(Kundendaten)"), fixed = TRUE, missing_msg= "Da stimmt etwas mit Ihrer Codeeingabe nicht!")
+success_msg("Glückwunsch, jetzt müssten Sie einen Überblick über die Daten bekommen haben!")
 ```
 
 ---
