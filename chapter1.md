@@ -72,7 +72,7 @@ key: 0d46e0ab5e
 xp: 100
 ```
 
-Schauen Sie sich die Daten zuerst an und verschaffen Sie sich einen Überblick, was an Datentypen und Werten vorliegt.
+Schauen Sie sich die Daten zuerst an und verschaffen Sie sich einen Überblick, was an Datentypen und Werten vorliegt. Schauen Sie sich bitte die Ausgabe in der Console genau an.
 
 Nützliche Funktionen für die Datenerkundung in R sind:
 - **nrow()** | **ncol()**: nrow and ncol gibt die Anzahl der Zeilen und Spalen in x zurück. Nrow und ncol behandeln einen Vektor genauso wie eine 1-spaltige Matrix.
