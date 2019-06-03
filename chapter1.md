@@ -4,19 +4,6 @@ description: 'Unternehmen xy'
 free_preview: true
 ---
 
-## Einstieg/Problemstellung
-
-```yaml
-type: VideoExercise
-key: 53fc87b3e9
-xp: 50
-```
-
-`@projector_key`
-9436e4b892a60157f6c0d6eeefacb82f
-
----
-
 ## Lasst uns anfangen
 
 ```yaml
@@ -41,7 +28,7 @@ Datensätze können in R auf verschiedenste Weise importiert werden. Um Daten au
 
 2) read.csv2 	(Semikolon  (;) separierte Dateien)
 
-Zuerst lesen Sie das zu bearbeitende Datenset ein. Es liegt unter diesem Pfad semikolongetrennt ab: 
+Lesen Sie bitte zuerst das zu bearbeitende Datenset ein. Es liegt unter diesem Pfad semikolongetrennt ab: 
 
 "https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv"
 
@@ -71,7 +58,8 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 
 `@sct`
 ```{r}
-
+ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
 
 ---
@@ -300,7 +288,7 @@ key: 92e156a006
 xp: 100
 ```
 
-Der nächste übliche Schritt nach der Bereinigung der Daten (Tidying) ist es, die Daten zu **transformieren**. Dazu gehört die Einschränkung des Datensates auf das Analyseinteresse, die Erstellung neuer Variablen, die Funktionen bestehender Variablen sind und die Berechnung eines Satzes von zusammenfassenden Statistiken (counts, means, ...)
+Der nächste übliche Schritt nach der Bereinigung der Daten (Tidying) ist es, die Daten zu **transformieren**. Dazu gehört die Einschränkung des Datensatzes auf das Analyseinteresse, die Erstellung neuer Variablen, die Funktionen bestehender Variablen sind und die Berechnung eines Satzes von zusammenfassenden Statistiken (counts, means, ...).
 (Wickham/Grolemund 2018, S.X)
 
 `@instructions`
@@ -339,7 +327,7 @@ key: b7d775e42f
 xp: 100
 ```
 
-Die **Visualisierung** ist eine grundlegende menschliche Aktivität und zeigt Ihnen Erkenntnisse, die Sie nicht erwartet hatten oder lässt Sie neue Fragen an die Daten stellen.Eine gute Visualisierung könnte auch darauf hinweisen, dass Sie die falschen Fragen stellen oder dass Sie andere Daten sammeln müssen. Die Visualisierung lässt Sie Daten besser interpretieren, jedoch skaliert sie nicht immer gut, da sie von Menschen in den häuftisgten Fällen für kontextbasierte und individuelle Sachverhalte angefragt wird.
+Die **Visualisierung** ist eine grundlegende menschliche Aktivität und zeigt Ihnen Erkenntnisse, die Sie nicht erwartet hatten oder lässt Sie neue Fragen an die Daten stellen.Eine gute Visualisierung könnte auch darauf hinweisen, dass Sie die falschen Fragen stellen oder dass Sie andere Daten sammeln müssen. Die Visualisierung lässt Sie Daten besser interpretieren, jedoch skaliert sie nicht immer gut, da sie von Menschen in den häuftigsten Fällen für kontextbasierte und individuelle Sachverhalte angefragt wird.
 (Wickham/Grolemund 2018, S.X)
 
 `@instructions`
@@ -438,7 +426,7 @@ key: c8e7e2efe2
 xp: 50
 ```
 
-Der letzte Schritt eins Data Science Projektes ist die **Kommunikation**. Ein absolut erfolgskritischer Teil eines jeden Datenanalyseprojektes. Es spielt keine Rolle, wie gut Ihre Modelle und Visualisierungen Sie dazu gebracht haben, die Daten zu verstehen, es sei denn, Sie können die Ergebnisse auch an andere verständlich weitergeben und (ökonomischen) Wert damit generieren.
+Der letzte Schritt eines Data Science Projektes ist die **Kommunikation**. Ein absolut erfolgskritischer Teil eines jeden Datenanalyseprojektes. Es spielt keine Rolle, wie gut Ihre Modelle und Visualisierungen Sie dazu gebracht haben, die Daten zu verstehen, es sei denn, Sie können die Ergebnisse auch an andere verständlich weitergeben und (ökonomischen) Wert damit generieren.
 (Quelle: Wickham/Grolemund 2018, S.X)
 
 `@hint`

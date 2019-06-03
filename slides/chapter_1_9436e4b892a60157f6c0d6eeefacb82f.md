@@ -11,7 +11,8 @@ key: "d2d5cf45bc"
 ```
 
 `@lower_third`
-name: Full Name
+
+name: Hannes Schott
 title: Instructor
 
 
