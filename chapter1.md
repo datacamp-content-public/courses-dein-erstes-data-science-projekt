@@ -58,7 +58,7 @@ Kundendaten <- read.csv2("https://assets.datacamp.com/production/repositories/48
 
 `@sct`
 ```{r}
-ex() %>% check_code(c(Office_33 <- "Nordwand", "Nordwand"-> Office_33), fixed=TRUE, missing_msg= "Da haben Sie etwas nicht richtig zugewisen. Verweisen Sie auf die Variable Office_33 den neuen Namen")
+ex() %>% check_code(read.csv2("https://assets.datacamp.com/production/repositories/4810/datasets/b0a840d5f44b82de92a6ef65ca83a4f605c27c95/Kundendaten1.csv")), fixed=TRUE, missing_msg= "Verwenden Sie bitte den Link aus der Instruktionsbox und weisen Sie ihn bitte zu")
 success_msg("Super - weiter geht´s, wir haben keine Zeit zu verlieren!")
 ```
 
